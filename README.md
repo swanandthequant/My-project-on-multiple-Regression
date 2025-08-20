@@ -1,5 +1,13 @@
+## datasets
+I used a very Good Dataset of Fetch_california_housing From sklear.datasets in
+
+## Methodolody
+1. Model Training(I just did the implementation of multiple Regression as there was no need of data cleaning in this)
+2. Model Evaluation (using mean_squared_error,mean_absolute_error,root_mean_squared_error,R2_score,Residuals)
+3. pickling
+
 ### what I learned 
-by this project it was simple project But I learned about Logistiv Regresssion which is One of the most imp Regression Topics 
+by this project it was simple project But I learned about Multiple Regresssion which is One of the most imp Regression Topics 
 and many of the Function of this
 
 ## Project Updates
