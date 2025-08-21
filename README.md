@@ -1,19 +1,62 @@
-## datasets
-I used a very Good Dataset of Fetch_california_housing From sklear.datasets in
+## Project Overview
 
-## Methodolody
-1. Model Training(I just did the implementation of multiple Regression as there was no need of data cleaning in this)
-2. Model Evaluation (using mean_squared_error,mean_absolute_error,root_mean_squared_error,R2_score,Residuals)
-3. pickling
+This project uses Multiple Linear Regression to predict a continuous target variable (house prices) based on multiple independent features. The main objective was to understand how regression can be extended from a single predictor to multiple predictors and analyze model assumptions.
 
-### what I learned 
-by this project it was simple project But I learned about Multiple Regresssion which is One of the most imp Regression Topics 
-and many of the Function of this
+## Dataset
 
-## Project Updates
-Hey there this is not the project which I was telling about in my last Repositary But as I told in description the project will be coming soon
-As this only my second project on Regression there can be some mistakes and I will be uploding more projects on classification and regression in one go because I have a long time ago but I didnt get thetime to post them so I am now posting them
-Thank you everyone
-Swanand patil
+Dataset with numerical predictors such as house size, number of rooms, and year of construction.
 
-## please ignore the Other files of multiple linear regression
+Target variable: House Price.
+
+
+## Methodology
+
+1. Explored the dataset with summary statistics and correlation checks.
+
+
+2. Applied preprocessing (removing outliers, handling missing values).
+
+
+3. Built a Multiple Linear Regression model using scikit-learn.
+
+
+4. Evaluated model performance using:
+
+R² Score
+
+Adjusted R²
+
+Mean Squared Error (MSE)
+
+Root Mean Squared Error (RMSE)
+
+
+
+5. Checked assumptions of regression (multicollinearity, residual plots, normality of errors).
+
+
+
+## Results
+
+The regression model was able to explain a significant portion of variance in house prices.
+
+Adjusted R² showed how adding features impacted predictive power.
+
+Detected multicollinearity in some features, which reduced interpretability.
+
+
+## What I Learned
+
+The difference between R² and Adjusted R².
+
+How to evaluate residuals for checking regression assumptions.
+
+How multiple predictors interact in influencing the target.
+
+
+Future Work
+
+Apply Ridge, Lasso, and ElasticNet regression to reduce multicollinearity.
+
+Use feature engineering to improve prediction accuracy.
+
